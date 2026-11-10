@@ -1,66 +1,89 @@
-# Lexical-Analyzer-in-C
-Project Overview
 
-A Lexical Analyzer developed using C programming language. It reads source code character by character and converts it into meaningful tokens.
+# 🔍 Lexical Analyzer in C
 
-Features
+<p align="center">
+  <b>A C-based Lexical Analyzer that converts source code into tokens.</b>
+</p>
 
-Keyword identification
+---
 
-Identifier identification
+## 📌 About The Project
 
-Operator identification
+This project implements a basic Lexical Analyzer using the C programming language.
 
-Constant identification
+It reads a source code file character by character and identifies different types of tokens.
 
-Special character identification
+## 🚀 Features
 
-Preprocessor directive identification
+- ✅ Keyword Identification
+- ✅ Identifier Identification
+- ✅ Operator Identification
+- ✅ Constant Identification
+- ✅ Special Character Identification
+- ✅ Preprocessor Directive Identification
+- 🚧 Comment Handling
+- 🚧 String Literal Handling
 
-File handling using C standard library
+## 🛠️ Technologies Used
 
-Technologies Used
+- C Programming
+- GCC Compiler
+- File Handling
+- String Handling
+- Structures and Enumerations
 
-C Programming
+## 📂 Project Structure
 
-File Handling
+```text
+Lexical-Analyzer/
+│
+├── main.c
+├── lexer.c
+├── lexer.h
+├── test.c
+├── README.md
+└── .gitignore
+```
 
-String Handling
+## ⚙️ Compilation
 
-Structures and Enumerations
-
-GCC Compiler
-
-Project Structure
-
-main.c – Main program
-
-lexer.c – Lexical analysis implementation
-
-lexer.h – Function declarations and token definitions
-
-test.c – Test input file
-
-How to Compile
-
+```bash
 gcc main.c lexer.c -o lexer
+```
 
-How to Run
+## ▶️ Execution
 
+```bash
 ./lexer test.c
+```
 
-Learning Outcomes
+## 📸 Sample Output
 
-Understanding lexical analysis
+```text
+Token: int, Type: 0
+Token: main, Type: 4
+Token: (, Type: 2
+Token: ), Type: 2
+Token: {, Type: 2
+Token: age, Type: 4
+Token: =, Type: 1
+Token: 25, Type: 3
+```
 
-Tokenization of source code
+## 🎯 Learning Outcomes
 
-File processing in C
+- Understanding Lexical Analysis
+- Tokenization of Source Code
+- C File Handling
+- Character and String Processing
+- Modular Programming
 
-Character and string manipulation
+## 👨‍💻 Author
 
-Modular programming
+**Jitendra Sharma**
 
-Author
+GitHub: [jitendrasharma-eng](https://github.com/jitendrasharma-eng)
 
-Jitendra Sharma
+---
+
+⭐ If you find this project useful, consider giving it a star!
